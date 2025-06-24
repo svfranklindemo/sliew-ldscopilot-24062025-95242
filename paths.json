@@ -1,7 +1,19 @@
 {
-  "mappings": [
-    "/content/pbakliwal/eds-crosswalk-source/:/",
-    "/content/pbakliwal/eds-crosswalk-source/metadata.json:/metadata.json",
-    "/content/pbakliwal/eds-crosswalk-source/redirects.json:/redirects.json"
-  ]
+    "mappings": [
+      "/content/sliew/sp-zoltar-p03-d01/:/",
+      "/content/sliew/sp-zoltar-p03-d01/configuration:/.helix/config.json",
+      "/content/sliew/sp-zoltar-p03-d01/metadata:/metadata.json",
+      "/content/sliew/sp-zoltar-p03-d01/configs:/configs.json",
+      "/content/sliew/sp-zoltar-p03-d01/configs-stage:/configs-stage.json",
+      "/content/sliew/sp-zoltar-p03-d01/configs-dev:/configs-dev.json",
+      "/content/sliew/sp-zoltar-p03-d01/redirects:/redirects.json",
+      "/content/sliew/sp-zoltar-p03-d01/placeholders:/placeholders.json",
+      "/content/sliew/sp-zoltar-p03-d01/products/recommended-products:/products/recommended-products.json",
+      "/content/sliew/sp-zoltar-p03-d01/enrichment/enrichment:/enrichment/enrichment.json",
+      "/content/sliew/sp-zoltar-p03-d01/images/products/:/images/products/"
+    ],
+    "includes": [
+      "/content/sliew/sp-zoltar-p03-d01",
+      "/content/dam/citisignal/images/products/"
+    ]
 }
